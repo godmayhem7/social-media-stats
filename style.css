@@ -1,0 +1,550 @@
+*{
+    font-family: 'Inter';
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:hsl(230, 17%, 14%);
+    margin: 0;
+}
+
+.body-sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:hsl(0, 0%, 100%);
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color:  hsl(232, 19%, 15%);
+    height: 200px;
+    padding: 40px 125px
+}
+
+.header-sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: hsl(225, 100%, 98%);
+    height: 200px;
+    padding: 40px 125px
+}
+
+.h1{
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+}
+
+.h1-sub{
+    color: hsl(230, 17%, 14%);
+    margin: 0; 
+}
+
+.hdr-first-sect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.name{
+    color: hsl(228, 34%, 66%);
+    margin: 0;
+    font-size: 15px;
+}
+
+
+.hdr-second-sect{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hfsp{
+    color: hsl(228, 34%, 66%);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.radio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(90deg,hsl(210, 78%, 56%),hsl(146, 68%, 55%)) ;
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 100px;
+    padding: 1px 0 0 0;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.radio-sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:hsl(230, 22%, 74%) ;
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 100px;
+    padding: 1px 0 0 0;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.rad{
+    background-color: hsl(0, 0%, 100%);
+    width: 26px;
+    height: 26px;
+    border: none;
+    border-radius: 100px;
+    transform: translate(-14px,0);
+    transition: 300ms;
+}
+
+.rad-sub{
+    background-color: hsl(0, 0%, 100%);
+    width: 26px;
+    height: 26px;
+    border: none;
+    border-radius: 100px;
+    transform: translate(14px,0);
+    transition: 300ms;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 125px;
+    transform: translateY(-100px);
+}
+
+
+.view4,
+.view3,
+.view2,
+.view1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+    height: 190px;
+    background-color: hsl(228, 28%, 20%);
+    overflow: hidden;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    transition: 400ms;
+}
+
+.view4:hover,
+.view3:hover,
+.view2:hover,
+.view1:hover{
+    transform: scale(1.1,1.1);
+    transition: 400ms;
+    background-color: hsla(230, 21%, 33%, 0.616);
+    cursor: pointer;
+}
+
+.view4-sub,
+.view3-sub,
+.view2-sub,
+.view1-sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+    height: 190px;
+    background-color:hsl(227, 47%, 96%);
+    overflow: hidden;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+}
+
+.view4-sub:hover,
+.view3-sub:hover,
+.view2-sub:hover,
+.view1-sub:hover{
+    transform: scale(1.1,1.1);
+    transition: 400ms;
+    background-color:hsla(228, 65%, 92%, 0.589);
+    cursor: pointer;
+}
+
+
+
+.view1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background:hsl(208, 92%, 53%);
+    height: 5px;
+}
+
+.view2::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background:hsl(203, 89%, 53%);
+    height: 5px;
+}
+
+.view3::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background:linear-gradient(90deg,hsl(37, 97%, 70%),hsl(329, 70%, 58%));
+    height: 5px;
+}
+
+.view4::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background:hsl(348, 97%, 39%);
+    height: 5px;
+}
+
+
+
+.socialmedia-type{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2{
+    font-size: 80px;
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+}
+
+.h2-sub{
+    font-size: 80px;
+    margin: 0;
+    color:hsl(230, 17%, 14%);
+}
+
+.followers{
+    color: hsl(228, 34%, 66%);
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    letter-spacing: 4px;
+}
+.stat,
+.stats{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats p{
+    color:hsl(163, 72%, 41%);
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.stat p{
+    color:hsl(356, 69%, 56%);
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.name{
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.first-main-sect{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+
+.h3{
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    margin: 50px 0 20px 0;
+}
+
+.h3-sub{
+    color:hsl(228, 12%, 44%);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    margin: 50px 0 20px 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 220px;
+    height: fit-content;
+    background-color: hsl(228, 28%, 20%);
+    overflow: hidden;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    transition: 400ms;
+}
+
+.card:hover{
+    cursor: pointer;
+    background-color:hsla(230, 21%, 33%, 0.616);
+    transform: scale(1.1,1.1);
+    transition: 400ms;
+}
+
+.card-sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 220px;
+    height: fit-content;
+    background-color:hsl(227, 47%, 96%);
+    overflow: hidden;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+}
+
+.card-sub:hover{
+    cursor: pointer;
+    background-color:hsla(228, 65%, 92%, 0.589);
+    transform: scale(1.1,1.1);
+    transition: 400ms;
+}
+
+
+
+.h4{
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    margin: 0;
+}
+
+.h4-sub{
+    color:hsl(230, 17%, 14%);
+    font-size: 30px;
+    margin: 0;
+}
+
+.c-stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.c-info p{
+    color: hsl(228, 34%, 66%);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+.second-main-sect{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+
+@media screen and (max-width:380px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 30px;
+        transform: translateY(-80px);
+    }
+
+    .second-main-sect{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    
+
+    .first-main-sect{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    .header{
+        display: flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color:  hsl(232, 19%, 15%);
+        height: 200px;
+        padding: 35px;
+    }
+
+    .header-sub{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: hsl(225, 100%, 98%);
+        height: 200px;
+        padding: 35px;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 280px;
+        height: fit-content;
+        background-color: hsl(228, 28%, 20%);
+        overflow: hidden;
+        padding: 20px;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+        transition: 400ms;
+    }
+
+    .card-sub{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 280px;
+        height: fit-content;
+        background-color:hsl(227, 47%, 96%);
+        overflow: hidden;
+        padding: 20px;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+    }
+
+    .view4,
+    .view3,
+    .view2,
+    .view1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 280px;
+        height: 190px;
+        background-color: hsl(228, 28%, 20%);
+        overflow: hidden;
+        padding: 20px;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+        transition: 400ms;
+    }
+
+    .view4-sub,
+    .view3-sub,
+    .view2-sub,
+    .view1-sub{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 280px;
+        height: 190px;
+        background-color:hsl(227, 47%, 96%);
+        overflow: hidden;
+        padding: 20px;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+    }
+
+    .rad{
+        background-color:hsl(230, 17%, 14%);
+        width: 26px;
+        height: 26px;
+        border: none;
+        border-radius: 100px;
+        transform: translate(-14px,0);
+        transition: 300ms;
+    }
+    
+    .rad-sub{
+        background-color:hsl(230, 17%, 14%);
+        width: 26px;
+        height: 26px;
+        border: none;
+        border-radius: 100px;
+        transform: translate(14px,0);
+        transition: 300ms;
+    }
+
+    .hdr-second-sect{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        width: 320px;
+    }
+}
